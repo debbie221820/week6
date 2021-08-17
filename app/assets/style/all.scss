@@ -1,0 +1,129 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "./layout/_index.scss";
+
+// ------------------------------
+h1 {
+    font-size: 32px;
+    height: 48px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 28px;
+    height: 42px;
+    font-weight: bold;
+}
+.text-bs {
+    font-size: 20px;
+    height: 30px;
+    font-weight: bold;
+}
+.header-sign {
+    font-size: 12px;
+    line-height: 21px;
+}
+// .header-sign a {
+//     margin: 10px;
+//     text-decoration: none;
+//     color: #000;
+// }
+
+.header-sign {
+    text-align: end;
+    a {
+        font-size: 16px;
+
+        color: #000;
+        text-decoration: none;
+        padding: 0 7px;
+        // display: none;
+    }
+}
+
+.text-muted {
+    font-size: 20;
+    line-height: 30px;
+}
+.container {
+    margin-top: 90px;
+    // ------------- 刊頭-----------
+    .header {
+        margin: 0 auto;
+        max-width: 1300px;
+    }
+
+    .header-title {
+        font-size: 24px;
+        font-weight: bold;
+        padding: 28px 0;
+        text-align: center;
+    }
+
+    max-width: 1280px;
+
+    .banner-bg {
+        object-fit: cover;
+        padding-left: 12%;
+        height: 480px;
+        background: url(../images/banner.jpg);
+        background-size: 100% auto;
+        background-position: cover;
+    }
+    .button {
+        width: 160px;
+    }
+
+    .banner-btn {
+        width: 160px;
+    }
+
+    @media (min-width: 400px) {
+    }
+    .banner-bg {
+        padding-left: 62px;
+    }
+    .banner-title {
+        position: absolute;
+        left: 37px;
+        top: 300px;
+    }
+
+
+
+// footer------
+.footer {
+    background-image: url(../images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg);
+    background-size: 100% auto;
+    background-position: center;
+    height: 350px;
+    max-width: 1280px;
+    margin: 0 auto;
+    .card {
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+
+.footerbody {
+    margin-top: 160px;
+    .btn {
+        margin-top: 33px;
+    }
+    .buttonarea {
+        height: 60px;
+        height: 80px;
+    }
+
+    .footer-white {
+        .footer-body {
+            .header-title {
+                font-size: 24px;
+                font-weight: bold;
+                padding: 28px 0;
+                text-align: center;
+            }
+        }
+    }
+}
+}

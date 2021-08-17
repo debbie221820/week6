@@ -1,0 +1,83 @@
+// --------熱門特展------------------
+
+.banner-bg {visibility: hidden;}
+.popular-exh {
+  margin-top: 60px;
+  .popular-img {
+    display: block;
+  }
+  .popular-img img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .popular {margin-bottom:20px;}
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.popular-date {
+  width: 30px;
+  margin-left: 100;
+}
+p {
+  font: size 20px;
+  line-height: 30px;  .title-date-x{display: none;}
+}
+
+@include media-breakpoint-down(md) {
+  .popular .row {
+    position: relative;
+    .popular-date-area .col-md-2{display: none;
+      position: absolute;
+      flex-direction: row-reverse;
+    }
+
+  }
+}
+
+.design-title-date{ display: none;  }
+  .popular-date {
+      display: none;
+  }
+
+
+
+
+
+nav{margin-top: 90px;background-color: aquamarine;}
+.review-bg {
+  background-color: #fff;
+  background: url(../images/people2.png);background-size: contain;
+}
+.review{margin-top: 60px;}
+.review-fron{padding: 40px 20px;
+.people-img{margin: 30px 0;}
+}
+
+// 猜你也喜歡... ----------------
+
+.swiper{margin: 60px 0 30px;}
+.swiper-container {height: 410px;}
+
+.swiper-wrapper {
+   height: 520px;
+
+
+    .swiper-slide{
+      width: 350px;
+      height: 350px;}
+    .swiper-slide img {height:100%;width:100%;object-fit: cover;
+    }
+    .swiper-text {
+      height: 120px;
+      background: #000;
+    }
+  }
+// ------------------------
+@media (min-width:768px) {
+  .design{display: flex;flex-direction:row-reverse;
+    display:inline block;}
+  .design-date-area-y{display: none;}
+}
