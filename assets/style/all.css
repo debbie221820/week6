@@ -12482,7 +12482,6 @@ p {
     position: absolute;
     top: 167px;
     left: 180px;
-    display: none;
   }
   .titledata {
     display: none;
@@ -12510,7 +12509,7 @@ p {
 .review-bg {
   background-color: #fff;
   background: url(../images/people2.png);
-  background-size: contain;
+  background-size: cover;
 }
 
 .review {
