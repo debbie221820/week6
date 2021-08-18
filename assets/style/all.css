@@ -12421,6 +12421,10 @@ p {
   line-height: 30px;
 }
 
+.titledata {
+  font-size: 17px;
+}
+
 @media (max-width: 767.98px) {
   .popular .row {
     position: relative;
@@ -12569,6 +12573,12 @@ h2, .h2 {
   font-size: 20px;
   height: 30px;
   font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  text-bs {
+    font-size: 20px;
+  }
 }
 
 .header-sign {
